@@ -27,8 +27,6 @@ docker stop 3cx_stage1_c
 
 docker commit 3cx_stage1_c ${USER}/3cx:${VERSION}
 
-docker push ${USER}/3cx:${VERSION}
-
 docker rm 3cx_stage1_c
 
 docker rmi 3cx_stage1
